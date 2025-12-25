@@ -10,7 +10,7 @@ from email.message import EmailMessage
 
 # ️Gmail Login (IMAP)
 gmail_user = "csivanithiyasree@gmail.com"
-app_password = "isoz frds eddc mvoh"  # App Password
+app_password = ""  # App Password
 imap_host = "imap.gmail.com"
 
 # Connect to Gmail via IMAP
@@ -141,3 +141,4 @@ else:
     print(f"✅ PDF converted to Excel: {excel_file}")
 
 print("\n✅ All matching emails processed successfully!")
+
